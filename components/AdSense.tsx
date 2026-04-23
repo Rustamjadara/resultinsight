@@ -34,7 +34,7 @@ export default function AdSense({
 
   useEffect(() => {
     // Only push once per mount, and only if client ID is configured
-    if (!client || client === "ca-pub-XXXXXXXXXXXXXXXX") return;
+    if (!client || client === "ca-pub-6326266824828342") return;
     if (pushed.current) return;
     pushed.current = true;
 
@@ -46,7 +46,7 @@ export default function AdSense({
   }, [client]);
 
   // Don't render anything if AdSense is not configured
-  if (!client || client === "ca-pub-XXXXXXXXXXXXXXXX") {
+  if (!client || client === "ca-pub-6326266824828342") {
     return (
       <div
         className={`flex items-center justify-center rounded border border-dashed 
