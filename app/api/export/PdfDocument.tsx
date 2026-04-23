@@ -26,6 +26,7 @@ interface StudentLike {
   overall_pct:   number;
   cocurricular:  string;
   selected_stream: string;
+  class_level?:  "X" | "XII";
 }
 
 interface Props {
