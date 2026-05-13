@@ -102,7 +102,7 @@ export const SUBJECT_NAMES_CLASS_XII: Record<string, string> = {
   "120": "German",
   "121": "Russian",
   "301": "English Core",
-  "302": "English Elective",
+  "302": "Hindi Core",
 };
 
 /** Resolve a subject code to its display name for the given class level. */
